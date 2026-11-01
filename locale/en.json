@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Conversation Purge",
+    "description": "Opens from the left sidebar to permanently delete a conversation, optionally with its documents, attachments and subagent records."
+  }
+}
