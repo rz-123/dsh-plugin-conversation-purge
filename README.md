@@ -36,13 +36,31 @@
 
 ## 安装
 
-这是一个**本地 bundle**，没有发布到 npm。把仓库克隆到任意目录，然后用 DSH 的 plugin manager 以该目录为 target 安装：
+### 从 npm 安装（推荐）
+
+在 DSH 的「添加插件」对话框中输入包名：
+
+```text
+dsh-plugin-conversation-purge
+```
+
+或者用 plugin manager：
+
+```text
+plugin_manager action=install_bundle target=dsh-plugin-conversation-purge
+```
+
+### 从源码或本地目录安装
+
+克隆本仓库，然后以该目录为 target 安装：
 
 ```text
 plugin_manager action=install_bundle target=<本仓库的绝对路径>
 ```
 
 安装会把包加入当前 profile 的 bundle 列表；安装后左侧栏出现「对话清理」图标。DSH 支持 HMR，通常无需重启；如果图标未出现，刷新一次页面。
+
+> 同一个面板 id 只能存在一份：不要同时安装 npm 版和本地版。
 
 ## 使用
 
@@ -144,6 +162,22 @@ A [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (DSH) web 
 
 ## Install
 
+### From npm (recommended)
+
+Enter the package name in DSH's **Add plugin** dialog:
+
+```text
+dsh-plugin-conversation-purge
+```
+
+Or install it with the plugin manager:
+
+```text
+plugin_manager action=install_bundle target=dsh-plugin-conversation-purge
+```
+
+### From source / a local directory
+
 Clone this repository, then install the folder as a local bundle:
 
 ```text
@@ -151,6 +185,8 @@ plugin_manager action=install_bundle target=<absolute path to this repository>
 ```
 
 After installation, a trash-can icon appears in the left sidebar. Refresh the page if it does not appear immediately.
+
+> Only one copy can be installed at a time: do not install both the npm and the local version.
 
 ## Usage
 

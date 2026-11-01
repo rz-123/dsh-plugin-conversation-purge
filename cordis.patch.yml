@@ -1,3 +1,3 @@
 - insert:
     - id: conversation-purge
-      name: '@local/dsh-conversation-purge'
+      name: 'dsh-plugin-conversation-purge'

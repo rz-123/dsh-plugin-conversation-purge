@@ -1,9 +1,26 @@
 {
-  "name": "@local/dsh-conversation-purge",
+  "name": "dsh-plugin-conversation-purge",
   "version": "1.0.0",
-  "private": true,
+  "description": "DSH plugin: permanently delete conversations, optionally together with their documents, attachments and subagent records.",
   "type": "module",
-  "description": "Permanently delete conversations, optionally together with their documents, attachments and subagent records.",
+  "license": "MIT",
+  "author": "rz-123",
+  "homepage": "https://github.com/rz-123/dsh-plugin-conversation-purge#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rz-123/dsh-plugin-conversation-purge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rz-123/dsh-plugin-conversation-purge/issues"
+  },
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "conversation",
+    "purge",
+    "delete"
+  ],
   "exports": {
     ".": "./index.js",
     "./client": "./client.js",
