@@ -1,6 +1,6 @@
 {
   "name": "dsh-plugin-conversation-purge",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "DSH plugin: permanently delete conversations, optionally together with their documents, attachments and subagent records.",
   "type": "module",
   "license": "MIT",

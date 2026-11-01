@@ -1,5 +1,5 @@
 window.__ModuleLoader__.load({
-  id: '@local/dsh-conversation-purge',
+  id: 'dsh-plugin-conversation-purge',
   factory(require) {
     const React = require('react')
     const h = React.createElement
